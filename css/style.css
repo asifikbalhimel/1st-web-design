@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar img{
+	margin: 10px 0px;
+}
+.menu li{
+	list-style: none; 
+	display: inline-block;
+	margin: 30px 16px;
+    font-size: 18px;
+    color: #1e266d;
+}
+.singbtn{
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+	padding: 14px 20px;
+	background-color: #2e367d;
+	border-radius: 4px;
+	transition: 0.5s;
+	border: none;
+}
+.singbtn:hover{
+	background-color: #17a2b8;
+	transition: 0.5s;
+}
+.menu-btn{
+	margin: 18px 0;
+}
+.bannar{
+	width: 100%;
+	padding: 40px 0;
+}
+.b-content{
+	display: flex;	
+}
+.b-left{
+	flex-basis: 50%;
+	margin: 10px 10px;
+	
+}
+.b-right{
+	flex-basis: 50%;
+}
+.b-left h1{
+	font-size: 45px;
+	color: #1e266d;
+	margin-bottom: 24px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.b-left p{
+	font-size: 18px;
+	margin-bottom: 16px;
+	color: #526375;
+}
+.b-left h3{
+	font-size: 30px;
+	font-weight: 300;
+	color: #526375;
+}
+.bg-color{
+	background-color: #f5f7fa;
+	width: 100%;
+	padding: 60px 0;
+}
+.footer{
+	width: 100%;
+	padding: 60px 0;
+}
+.footer-content{
+	display: flex;
+}
+.footer-item{
+	flex-basis: 25%;
+}
+.footer-item h5{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.footer-item p{
+	font-size: 16px;
+	color: #91a3bb;
+	line-height: 1.7;
+}
+.footer-item li{
+	list-style: none;
+	line-height: 1.7;
+
+}
+.footer-item li a{
+	color: #91a3bb;
+	transition: .5s;
+
+}
+.footer-item li a:hover{
+	color: #1e266d;
+	margin-left: 8px;
+	transition: .5s;
+
+}
+.address{
+	width: 100%;
+	padding: 40px 0;
+}
+.a-content{
+	background-color: #2e367d;
+	color: white;
+	padding: 80px;
+	border-radius: 10px;
+	display: flex;
+}
+.a-item{
+	flex-basis: 50%;
+}
+.a-item h3{
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+.a-item p{
+	line-height: 1.7;
+}
+.wrapper{
+	width: 100%;
+	padding: 60px 0;
+
+}
+.wrapper-content{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	line-height: 1.7;
+
+}
+.w-item{
+	background-color: #f9799a;
+	padding: 40px 35px; 
+	border-radius: 10px;
+}
+.w-item2{
+	background-color: #61c4d8;
+	padding: 40px 35px; 
+	border-radius: 10px;
+}
+.w-item3{
+	background-color: #1e266d;
+	padding: 40px 35px; 
+	border-radius: 10px;
+}
+.i-content h1{
+	text-align: center;
+	font-size: 45px;
+    color: #07324f;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
